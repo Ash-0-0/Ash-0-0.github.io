@@ -52,7 +52,7 @@ createCannon("left",300,2000);
 createCannon("right",300,2000);
 createCannon("top",200,1000);
 createCannon("left",300,2000);
-    
+    createCannon("bottom",600,2000);
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
