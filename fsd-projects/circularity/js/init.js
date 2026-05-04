@@ -24,10 +24,13 @@ var circle;
 var circles = [];
 
         // TODO 2 : Create a function that draws a circle 
-    circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+   function drawCircle(){
+        circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
 physikz.addRandomVelocity(circle, canvas, 5, 5);
 view.addChild(circle);
 circles.push(circle);
+   }
+
 
         // TODO 3 : Call the drawCircle() function
 
@@ -79,7 +82,7 @@ game.checkCirclePosition(circles[i]);
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-          function checkCirclePosition(circle) {
+     
     if ( circle.x > canvas.width ) {
         circle.x = 0;
     }
